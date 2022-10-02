@@ -1,9 +1,11 @@
 import * as React from "react"
+import {container} from "./styles/layout.module.css"
+
 
 const Layout =({children})=>{
     return(
         <div>
-            <main>
+            <main className={container}>
                 {children}
             </main>
         </div>
